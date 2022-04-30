@@ -74,7 +74,7 @@ const handleSearch=event=>{
         <div>
             <div className="shop-container">
                 <div className="product-container">
-                hello shop{products.length}
+                hello f shop{products.length}
                 {
                     displayProducts.map(product=><Product
                         key={product.id}
